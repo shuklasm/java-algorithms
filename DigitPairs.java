@@ -41,7 +41,7 @@ public class DigitPairs {
 	   
 
 	     
-	      int[] score = new int [n]
+	      int[] score = new int [n];
 	      
 	      for(int j =0;j<n;j++)
 	      {
@@ -53,7 +53,7 @@ public class DigitPairs {
 	      {
 	    	  
 	    	  int x = GiveBS(score[i]);
-	    	  bitscore[i] = x-arr[i];
+	    	  bitscore[i] = x;
 	      }
 	      
 	      for(int i=0;i<n;i++)
