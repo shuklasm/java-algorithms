@@ -10,7 +10,7 @@ public class TimeConversion
 		String min = str[1];
 		String secPeriod= str[2];
 		String sec	=	secPeriod.substring(0,secPeriod.length()-2);
-		String period = secPeriod.substring(secPeriod.length()-3,secPeriod.length());
+		String period = secPeriod.substring(secPeriod.length()-2,secPeriod.length());
 		
 		String NewTime = "";
 		
@@ -20,7 +20,7 @@ public class TimeConversion
 		}
 		else if((hour>=0 && hour<12) && (period.equalsIgnoreCase("PM")))
 		{
-			NewTime =(hour-12) +":"+min+":"+sec ; 
+			NewTime =(hour+12) +":"+min+":"+sec ; 
 		}
 		else if((hour==12) && (period.equalsIgnoreCase("AM")))
 		{
