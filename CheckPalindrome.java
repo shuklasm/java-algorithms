@@ -3,7 +3,9 @@ import java.util.Scanner;
 public class CheckPalindrome {
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+
+		Scanner sc new Scanner(System.in);
+
 		String A = sc.nextLine();
 		
 		int a_pointer = 0;
