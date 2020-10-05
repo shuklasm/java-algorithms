@@ -36,8 +36,11 @@ public class Beyblade {
       else
       p++;
    }
-   /+++++++++
-   System.out.println(me[x]);
+   
+for(int i=0;i<n;i++){
+   
+	System.out.println(me[x]);
+}
    
    }
 }
